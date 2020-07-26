@@ -50,7 +50,7 @@ function promptUser() {
 }
 function generateREADME(answers) {
 return`# ${answers.title}
-![License](https://img.shields.io/badge/License-${annswers.license}-blue.svg)
+![License](https://img.shields.io/badge/License-${answers.license}-blue.svg)
 ## Description
 ${answers.description}
 ## Table of Contents (Optional)
