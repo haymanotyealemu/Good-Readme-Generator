@@ -25,6 +25,13 @@ function promptUser() {
       name: "usage"
       },
       {
+      type: "checkbox",
+      name: "license",
+      choices: ["MIT License",
+                "GPL License","Public Domain (Unlicense)"
+              ]
+      },
+      {
       type: "input",
       message: "Enter contribution guidelines",
       name: "contribution"  
@@ -33,11 +40,17 @@ function promptUser() {
       type: "input",
       message: "Enter test instructions",
       name: "test"  
-      }
+      },
+      {
+        type: "input",
+        message: "Enter your GitHub username",
+        name: "username"  
+        }
   ]);
 }
 function generateREADME(answers) {
 return`# ${answers.title}
+![License](https://img.shields.io/badge/License-${annswers.license}-blue.svg)
 ## Description
 ${answers.description}
 ## Table of Contents (Optional)
@@ -51,12 +64,15 @@ ${answers.installation}
 ${answers.usage}
 ## Credits
 ## License
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ## Badges
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 ## Contributing 
 ${answers.contribution}
 ## Tests
 ${answers.test}
+## Questions
+
 `
 ;
 }
