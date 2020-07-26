@@ -82,8 +82,8 @@ ${answers.contribution}
 ## Tests
 ${answers.test}
 ## Questions
-![${answers.username}](${answers.profile})
-<${answers.email}>
+![image of me](https://avatars2.githubusercontent.com/u/43423292?s=460&u=26cb426de077fa987aa3198e029a68dfe04424c1&v=4)
+[${answers.email}](#email)
 `
 ;
 }
