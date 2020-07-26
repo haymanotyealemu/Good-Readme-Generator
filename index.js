@@ -45,7 +45,17 @@ function promptUser() {
         type: "input",
         message: "Enter your GitHub username",
         name: "username"  
-        }
+      },
+      {
+        type: "input",
+        message: "Enter the url of your profile picture",
+        name: "profile"  
+      },
+      {
+        type: "input",
+        message: "Enter your Email address",
+        name: "email"  
+      }
   ]);
 }
 function generateREADME(answers) {
@@ -72,7 +82,8 @@ ${answers.contribution}
 ## Tests
 ${answers.test}
 ## Questions
-
+![${answers.username}](${answers.profile})
+<${answers.email}>
 `
 ;
 }
