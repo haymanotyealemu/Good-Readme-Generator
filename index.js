@@ -1,12 +1,9 @@
 const inquirer = require("inquirer");
 const axios = require("axios");
 const fs = require("fs");
-const util = require("util");
 const path = require('path');
-const generate = require("./utils/generateMarkdown");
 
-const writeFileAsync = util.promisify(fs.writeFile);
-async function main(){
+async function init(){
   const userResponse = await inquirer
   .prompt([
     {
@@ -23,11 +20,6 @@ async function main(){
     type: "input",
     message: "Enter a description of your project",
     name: "description"
-  },
-  {
-    type: "input",
-    message: "Enter table of contents",
-    name: "tableOfContents"
   },
   {
     type: "input",
@@ -56,15 +48,20 @@ async function main(){
   },
   {
     type: "input",
-    message: "Any questions?",
-    name: "questions"  
+    message: "Enter your email address",
+    name: "email"  
+  },
+  {
+    type: "input",
+    message: "Enter any credits ",
+    name: "credits"  
   }
 ]);
 //Here we will call Github api
 const gitUsername = userResponse.username;
 const gitResponse = await axios.get(`https://api.github.com/users/${gitUsername}`);
 const gitData = gitResponse.data;
-const gitName = gitData.login;
+const gitName = gitData.name;
 const gitEmail = gitData.email;
 const gitlocation = gitData.location;
 const gitUrl = gitData.html_url;
@@ -74,38 +71,40 @@ var result = (`
 # **${userResponse.title}**
 ![Licence](https://img.shields.io/badge/License-${userResponse.licenseName}-blue.svg)
 ## Description
-# ${userResponse.description}
+${userResponse.description}
 ## Table of Contents (Optional)
 * [Installation](#installation)
 * [Usage](#usage)
 * [Credits](#credits)
 * [License](#license)
-# ${userResponse.tableOfContents}
 ## Installation
-# ${userResponse.installation}
+
+    ${userResponse.installation}
+
 ## Usage
-# ${userResponse.usage}
+![Screenshoot](${userResponse.usage})
+${userResponse.usage}
 ## Credits
+<${userResponse.credits}>
 ## License
 ![Licence](https://img.shields.io/badge/License-${userResponse.licenseName}-blue.svg)
-# ${userResponse.licenseName}
 ## Badges
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 ## Contributing 
-# ${userResponse.contribution}
+${userResponse.contribution}
 ## Tests
-# ${userResponse.test}
+${userResponse.test}
 ## Questions
-# ${userResponse.questions}
+Please contact the author for any questions
 # Author Details 
 ${gitName}
 \n[GitHub Profile](${gitUrl})
 \n![ProfileImage](${gitProfileImage})
-\nEmail: ${gitEmail}
+\nEmail: <${userResponse.email}>
 `)
 var writeResult = fs.writeFileSync(path.join(__dirname,'../Good-Readme-Generator','README.md'),result)
 console.log("file generated");
 }
-main();
+init();
 
 
