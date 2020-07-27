@@ -15,12 +15,12 @@ something
     clone and run
 
 ## Usage
-![screenshoot-1](https://user-images.githubusercontent.com/43423292/88588047-e9e94380-d024-11ea-8e3e-0c41c9fea313.png)
+
 
 https://drive.google.com/file/d/14-fXXCRFCXmjxPLa6J_Gd9TMdFtqn8i0/view
 ## Credits
-/n<https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba https://www.makeareadme.com/>
-/n
+https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba https://www.makeareadme.com/
+
 
 ## License
 ![Licence](https://img.shields.io/badge/License-MIT-blue.svg)
