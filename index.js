@@ -85,8 +85,9 @@ ${userResponse.description}
 ![Screenshoot](${userResponse.usage})
 ${userResponse.usage}
 ## Credits
-<${userResponse.credits}>
+*<${userResponse.credits}>
 ## License
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![Licence](https://img.shields.io/badge/License-${userResponse.licenseName}-blue.svg)
 ## Badges
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
@@ -96,7 +97,7 @@ ${userResponse.contribution}
 ${userResponse.test}
 ## Questions
 Please contact the author for any questions
-# Author Details 
+## Author Details 
 ${gitName}
 \n[GitHub Profile](${gitUrl})
 \n![ProfileImage](${gitProfileImage})

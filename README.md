@@ -1,6 +1,6 @@
 
 # **Good Readme Generator**
-![Licence](https://img.shields.io/badge/License-Made by @haymanotyealemu-blue.svg)
+![Licence](https://img.shields.io/badge/License-none-blue.svg)
 ## Description
 something
 ## Table of Contents (Optional)
@@ -16,9 +16,10 @@ something
 ![Screenshoot](https://drive.google.com/file/d/14-fXXCRFCXmjxPLa6J_Gd9TMdFtqn8i0/view)
 https://drive.google.com/file/d/14-fXXCRFCXmjxPLa6J_Gd9TMdFtqn8i0/view
 ## Credits
-<https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba>
+*<https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba,https://www.makeareadme.com/,https://shields.io/category/license>
 ## License
-![Licence](https://img.shields.io/badge/License-Made by @haymanotyealemu-blue.svg)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+![Licence](https://img.shields.io/badge/License-none-blue.svg)
 ## Badges
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 ## Contributing 
@@ -27,7 +28,7 @@ none
 none
 ## Questions
 Please contact the author for any questions
-# Author Details 
+## Author Details 
 Haymanot Wolde
 
 [GitHub Profile](https://github.com/haymanotyealemu)
