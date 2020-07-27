@@ -1,6 +1,8 @@
 
 # **Good Readme Generator**
-![Licence](https://img.shields.io/badge/License-none-blue.svg)
+![Made by@](https://img.shields.io/badge/License-haymanotyealemu-brightgreen.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+
 ## Description
 something
 ## Table of Contents (Optional)
@@ -16,10 +18,11 @@ something
 ![Screenshoot](https://drive.google.com/file/d/14-fXXCRFCXmjxPLa6J_Gd9TMdFtqn8i0/view)
 https://drive.google.com/file/d/14-fXXCRFCXmjxPLa6J_Gd9TMdFtqn8i0/view
 ## Credits
-*<https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba,https://www.makeareadme.com/,https://shields.io/category/license>
+/n<https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba https://www.makeareadme.com/>
+/n
+
 ## License
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-![Licence](https://img.shields.io/badge/License-none-blue.svg)
+![Licence](https://img.shields.io/badge/License-MIT-blue.svg)
 ## Badges
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 ## Contributing 

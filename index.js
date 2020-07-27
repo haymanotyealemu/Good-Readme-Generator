@@ -63,13 +63,15 @@ const gitResponse = await axios.get(`https://api.github.com/users/${gitUsername}
 const gitData = gitResponse.data;
 const gitName = gitData.name;
 const gitEmail = gitData.email;
-const gitlocation = gitData.location;
 const gitUrl = gitData.html_url;
 const gitProfileImage = gitData.avatar_url;
+const gitRepo = gitData.repos_url;
 
 var result = (`
 # **${userResponse.title}**
-![Licence](https://img.shields.io/badge/License-${userResponse.licenseName}-blue.svg)
+![Made by@](https://img.shields.io/badge/License-${gitUsername}-brightgreen.svg)
+![License](https://img.shields.io/badge/License-${userResponse.licenseName}-blue.svg)
+
 ## Description
 ${userResponse.description}
 ## Table of Contents (Optional)
@@ -85,9 +87,10 @@ ${userResponse.description}
 ![Screenshoot](${userResponse.usage})
 ${userResponse.usage}
 ## Credits
-*<${userResponse.credits}>
+/n<${userResponse.credits}>
+/n
+
 ## License
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![Licence](https://img.shields.io/badge/License-${userResponse.licenseName}-blue.svg)
 ## Badges
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
