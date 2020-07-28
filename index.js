@@ -74,7 +74,7 @@ const gitRepo = gitData.repos_url;
 
 var result = (`
 # **${userResponse.title}**
-[MadeBy](https://img.shields.io/github/license/<${gitUsername}>/<${gitRepo}>
+![Made by@](https://img.shields.io/badge/License-${gitUsername}-brightgreen.svg)
 ![License](https://img.shields.io/badge/License-${userResponse.licenseName}-blue.svg)
 
 ## Description
@@ -89,10 +89,10 @@ ${userResponse.description}
     ${userResponse.installation}
 
 ## Usage
-![Screenshoot](https://github.com/${gitUsername}/${gitRepo}/issues/${userResponse.usage})
+![Screenshoot](${userResponse.usage})
 
 ## Credits
-<${userResponse.credits}>
+  ${userResponse.credits}
 
 
 ## License

@@ -1,6 +1,6 @@
 
 # **Good Readme Generator**
-[MadeBy](https://img.shields.io/github/license/<haymanotyealemu>/<https://api.github.com/users/haymanotyealemu/repos>
+![Made by@](https://img.shields.io/badge/License-haymanotyealemu-brightgreen.svg)
 ![License](https://img.shields.io/badge/License--blue.svg)
 
 ## Description
@@ -12,13 +12,13 @@ When creating an open source project on GitHub, it is important to have a qualit
 * [License](#license)
 ## Installation
 
-    with information about the app--what is the app for, how to use the app, how to install it,
+    Clone the project repository to your computer (clone) and run node index.js from the command line.
 
 ## Usage
-![Screenshoot](https://github.com/haymanotyealemu/https://api.github.com/users/haymanotyealemu/repos/issues/https://drive.google.com/file/d/1KWonNmbh2opsutXiE4XQTdBql6Oy-p0b/view)
+![Screenshoot](https://drive.google.com/file/d/14-fXXCRFCXmjxPLa6J_Gd9TMdFtqn8i0/view)
 
 ## Credits
-<https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba https://www.makeareadme.com/ https://shields.io/category/license https://greg.schueler.us/doc/markdown.text>
+  https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba  https://www.makeareadme.com/  https://shields.io/category/license  https://greg.schueler.us/doc/markdown.text  
 
 
 ## License
