@@ -4,7 +4,7 @@
 ![License](https://img.shields.io/badge/License-none-blue.svg)
 
 ## Description
-When creating an open source project on GitHub, it is important to have a quality README with information about the app--what is the app for, how to use the app, how to install it,how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
+When creating an open source project on GitHub, it is important to have a quality README with information about the app what is the app for, how to use the app, how to install it,how to report issues, and how to make contributions so that other developers are more likely to use and contribute to the success of the project. A command-line application will allow for quick and easy generation of a project README to get started quickly. This will allow a project creator to spend more time working on finishing the project and less time creating a good README.
 ## Table of Contents (Optional)
 * [Installation](#installation)
 * [Usage](#usage)
@@ -16,6 +16,9 @@ When creating an open source project on GitHub, it is important to have a qualit
 
 ## Usage
 ![screenshoot](https://user-images.githubusercontent.com/43423292/88611459-0bfbb980-d057-11ea-9ed9-fa7d2721227b.png)
+
+
+[Videolink](https://drive.google.com/file/d/1-sZ6tu1_TWggUvsJaL-7PG5uuxofymZI/view?usp=sharing)
 
 
 ## Credits
