@@ -15,7 +15,8 @@ When creating an open source project on GitHub, it is important to have a qualit
     Clone the project repository to your computer (clone) and run node index.js from the command line.
 
 ## Usage
-![Screenshoot](https://drive.google.com/file/d/1KWonNmbh2opsutXiE4XQTdBql6Oy-p0b/view)
+![screenshoot](https://user-images.githubusercontent.com/43423292/88611459-0bfbb980-d057-11ea-9ed9-fa7d2721227b.png)
+
 
 ## Credits
  * https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba  
