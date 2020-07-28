@@ -32,9 +32,14 @@ async function init(){
     name: "usage"
   },
   {
-    type: "input",
+    type: "checkbox",
     name: "licenseName",
-    message: "Provide license name"
+    message: "Choose your license name",
+    choices:[
+          "MIT License",
+          "GPL License",
+          "Public Domain (Unlicense)"
+    ]
   },
   {
     type: "input",
@@ -69,7 +74,7 @@ const gitRepo = gitData.repos_url;
 
 var result = (`
 # **${userResponse.title}**
-![Made by@](https://img.shields.io/badge/License-${gitUsername}-brightgreen.svg)
+[MadeBy](https://img.shields.io/github/license/<${gitUsername}>/<${gitRepo}>
 ![License](https://img.shields.io/badge/License-${userResponse.licenseName}-blue.svg)
 
 ## Description
@@ -84,11 +89,11 @@ ${userResponse.description}
     ${userResponse.installation}
 
 ## Usage
-![Screenshoot](${userResponse.usage})
-${userResponse.usage}
+![Screenshoot](https://github.com/${gitUsername}/${gitRepo}/issues/${userResponse.usage})
+
 ## Credits
-/n<${userResponse.credits}>
-/n
+<${userResponse.credits}>
+
 
 ## License
 ![Licence](https://img.shields.io/badge/License-${userResponse.licenseName}-blue.svg)
